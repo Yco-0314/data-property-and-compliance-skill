@@ -23,3 +23,8 @@ cases/
 源材料/
 培训材料/
 *.申报*.pdf
+
+# Internal-only working docs (reference confidentiality reasoning / citation triage;
+# they themselves discuss the protected material — keep OUT of the public repo)
+PUBLISH-HOLD.md
+CITATIONS-REVIEW.md
