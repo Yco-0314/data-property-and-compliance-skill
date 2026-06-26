@@ -1,0 +1,14 @@
+# Categorizes auto-generated release notes (gh release --generate-notes and the
+# release workflow). Merged PRs are grouped by their labels.
+changelog:
+  exclude:
+    labels: [ignore-for-release]
+  categories:
+    - title: ✨ 新增 / Features
+      labels: [enhancement, feature]
+    - title: 🐛 修订 · 纠错 / Fixes
+      labels: [bug, fix, citation]
+    - title: 📝 文档 / Docs
+      labels: [documentation, docs]
+    - title: 🔧 其他 / Other
+      labels: ["*"]

@@ -1,5 +1,7 @@
 # 贡献指南（Contributing）
 
+🌐 **中文** · [English](./CONTRIBUTING.en.md)
+
 感谢你为 **Data Property and Compliance Skill** 做贡献。
 
 ## 红线（务必遵守）
