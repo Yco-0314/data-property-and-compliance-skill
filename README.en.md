@@ -9,7 +9,7 @@
 [![Version](https://img.shields.io/badge/version-v1.0.0-1f6feb.svg)](https://github.com/Yco-0314/data-property-and-compliance-skill/releases)
 [![Scope](https://img.shields.io/badge/scope-reference%20only%20%C2%B7%20not%20legal%20advice-red.svg)](#disclaimer-read-first)
 
-> ℹ️ This is a **clean-room rewrite**: it contains only ① publicly verifiable sources and ② the author's original methodology — no substance from any confidential internal material — and has passed two rounds of adversarial compliance audit (0 blockers).
+> ℹ️ This version contains only ① publicly verifiable sources and ② the author's original methodology — no substance from any confidential internal material — and has passed two rounds of adversarial compliance audit (0 blockers).
 
 > A systematic self-check / training framework covering the **full data-element lifecycle**: from accounting capitalization to securitization, from data-property registration to trusted circulation, from exchange trading to ecosystem partnerships.
 > Shipped as an AI-agent **Skill** ([`SKILL.md`](./SKILL.md)); also usable as a manual review checklist.
@@ -91,7 +91,7 @@ Walk the `- [ ]` checklist items in `SKILL.md` against the filing / trading mate
 
 ## About this open-source version
 
-This repo is a **clean-room rewrite**. Its content is of two kinds only — ① **publicly verifiable sources** (published laws, administrative regulations, departmental rules, national standards, national-level plans/measures, and exchanges' **officially published** trading rules / national model contracts), and ② the **author's original methodology** (review dimensions, contradiction detection, timeline audit, risk matrix, etc.).
+This repo's content is of two kinds only — ① **publicly verifiable sources** (published laws, administrative regulations, departmental rules, national standards, national-level plans/measures, and exchanges' **officially published** trading rules / national model contracts), and ② the **author's original methodology** (review dimensions, contradiction detection, timeline audit, risk matrix, etc.).
 
 To make it safe to publish, the following were done:
 - ✂️ **No internal-material substance**: does not copy or paraphrase any article numbers, criteria or lists that exist only in non-public internal material; any "judgment/limit" that cannot point to a public source was rewritten as analysis based on public law, or annotated "per the locally published rules in force."

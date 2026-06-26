@@ -17,7 +17,7 @@ import re
 import sys
 from pathlib import Path
 
-# (label, regex). Each pattern is something the clean-room rewrite removed and
+# (label, regex). Each pattern is something the cleanup removed and
 # that should not creep back in. Keep these specific to avoid false positives on
 # legitimate meta-mentions (e.g. the "we deliberately do NOT reproduce …" note).
 PATTERNS = [
@@ -48,10 +48,10 @@ for path in md_files:
             hits.append((str(rel), line, label, m.group(0)))
 
 if hits:
-    print("❌ compliance-guard: forbidden patterns found (clean-room regression):")
+    print("❌ compliance-guard: forbidden patterns found (regression):")
     for rel, line, label, frag in hits:
         print(f"   {rel}:{line}  [{label}]  -> {frag!r}")
-    print("\nThese were removed during the clean-room rewrite and must not return.")
+    print("\nThese were removed during cleanup and must not return.")
     print("If a hit is a legitimate corrective/meta mention, tighten the pattern in tools/compliance_guard.py.")
     sys.exit(1)
 

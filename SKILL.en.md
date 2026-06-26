@@ -4,7 +4,7 @@
 >
 > ⚠️ **Disclaimer**: Reference / educational framework only. **Not legal advice.** Article numbers and rules may have changed — rely on the current in-force text and consult a qualified professional.
 >
-> 🗂 **About this version**: clean-room rewrite — only ① publicly verifiable sources and ② original methodology; no substance from any confidential internal material; examples are redacted / illustrative.
+> 🗂 **About this version**: contains only ① publicly verifiable sources and ② original methodology; no substance from any confidential internal material; examples are redacted / illustrative.
 >
 > 🔖 Version v1.0 · last revised 2026-06-26 · License: CC BY 4.0
 
