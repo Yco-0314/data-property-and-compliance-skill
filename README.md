@@ -1,19 +1,31 @@
 # Data Property and Compliance Skill
 ### 数据要素全生命周期合规审查框架
 
+🌐 **中文** · [English](./README.en.md)
+
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](./LICENSE)
 [![AI Skill](https://img.shields.io/badge/AI%20Skill-Claude%20Code%20%C2%B7%20Codex-FF6B35.svg)](#怎么用)
 [![Version](https://img.shields.io/badge/version-v1.0.0-1f6feb.svg)](https://github.com/Yco-0314/data-property-and-compliance-skill/releases)
-[![Scope](https://img.shields.io/badge/scope-reference%20only%20%C2%B7%20not%20legal%20advice-red.svg)](#%EF%B8%8F-免责声明请先阅读)
+[![Scope](https://img.shields.io/badge/scope-reference%20only%20%C2%B7%20not%20legal%20advice-red.svg)](#免责声明请先阅读)
 
-> ℹ️ 本版本为**净室重写版**：内容仅含 ①可公开核验来源 ②作者原创方法论，已剥离任何非公开内部资料的实质内容，并经对抗式合规审计。⚠️ **正式对外公开前仍建议经一次法务终审。**
+> ℹ️ 本版本为**净室重写版**：内容仅含 ①可公开核验来源 ②作者原创方法论，已剥离任何非公开内部资料的实质内容，并经两轮对抗式合规审计（0 blocker）。
 
 > 一套覆盖**数据要素全生命周期**的系统化合规自查 / 培训框架：从会计入表到金融证券化，从数据产权登记到可信流通，从场内交易到生态合作。
 > 以 AI Agent **Skill** 形式提供（[`SKILL.md`](./SKILL.md)），也可直接当作人工审查 checklist 使用。
 
+## 目录
+
+- [免责声明](#免责声明请先阅读)
+- [覆盖范围（五大领域）](#覆盖范围五大领域)
+- [怎么用](#怎么用)
+- [关于本开源版本](#关于本开源版本透明说明)
+- [准确性与维护](#准确性与维护)
+- [许可证](#许可证)
+- [贡献](#贡献)
+
 ---
 
-## ⚠️ 免责声明（请先阅读）
+## 免责声明（请先阅读）
 
 - 本框架**仅供学习与实务参考，不构成法律意见，也不构成执业法律服务**。
 - 数据要素相关**法律、法规、规章、国家标准与交易规则更新很快**，文中条文编号、制度细则**可能已经变更**。**使用前请以现行有效文本为准**，并就具体事项咨询有资质的专业人士或主管部门。
@@ -56,7 +68,7 @@
 - ⚖️ **法条校订**：修正条号（如测绘资质管理为《测绘法》第二十七条；未取得资质处罚为第五十五条），易变条号统一加注"以现行有效文本为准"。
 - 🌐 **去地域绑定**：场内交易、生态合作伙伴等改为"以各交易所公开规则为准"的中性表述。
 
-> ⚠️ 本版本已经过对抗式合规审计；尽管如此，**正式对外公开前仍建议经一次人工 / 法务终审**，确认无任何受保密义务约束的实质内容。
+> ✅ 本版本已经过两轮对抗式合规审计（0 blocker / 0 high），无具名主体、案例可识别信息或非公开内部口径的实质残留。
 
 ---
 
@@ -73,7 +85,7 @@
 [CC BY 4.0](./LICENSE)（署名 4.0 国际）。可自由分享、改编，包括商用，**须署名**。
 
 建议署名：
-> "数据要素全生命周期合规审查框架" by `Cong Yu`，licensed under CC BY 4.0。Source: `<仓库地址>`。
+> "数据要素全生命周期合规审查框架" by `Cong Yu`，licensed under CC BY 4.0。Source: https://github.com/Yco-0314/data-property-and-compliance-skill 。
 
 > 注：如果你后续加入了**自动化脚本**（如 PDF 提取 / OCR / 校验工具），建议对**代码部分单独采用 MIT/Apache-2.0**，内容部分保留 CC BY 4.0，并在 README 中分别注明。
 

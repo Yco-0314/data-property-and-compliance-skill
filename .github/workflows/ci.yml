@@ -1,0 +1,35 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  compliance-guard:
+    name: Compliance regression guard
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run compliance guard (forbidden-pattern scan)
+        run: python3 tools/compliance_guard.py
+
+  link-check:
+    name: Markdown link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # check repo docs; skip badge CDN and gov.cn (plaintext, rate-limity)
+          args: >-
+            --no-progress --max-retries 2
+            --exclude 'img\.shields\.io'
+            --exclude 'gov\.cn'
+            README.md README.en.md CONTRIBUTING.md SKILL.md NOTICE tools/README.md
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
