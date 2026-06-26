@@ -1,6 +1,11 @@
 # Data Property and Compliance Skill
 ### 数据要素全生命周期合规审查框架
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](./LICENSE)
+[![AI Skill](https://img.shields.io/badge/AI%20Skill-Claude%20Code%20%C2%B7%20Codex-FF6B35.svg)](#怎么用)
+[![Version](https://img.shields.io/badge/version-v1.0.0-1f6feb.svg)](https://github.com/Yco-0314/data-property-and-compliance-skill/releases)
+[![Scope](https://img.shields.io/badge/scope-reference%20only%20%C2%B7%20not%20legal%20advice-red.svg)](#%EF%B8%8F-免责声明请先阅读)
+
 > ℹ️ 本版本为**净室重写版**：内容仅含 ①可公开核验来源 ②作者原创方法论，已剥离任何非公开内部资料的实质内容，并经对抗式合规审计。⚠️ **正式对外公开前仍建议经一次法务终审。**
 
 > 一套覆盖**数据要素全生命周期**的系统化合规自查 / 培训框架：从会计入表到金融证券化，从数据产权登记到可信流通，从场内交易到生态合作。
