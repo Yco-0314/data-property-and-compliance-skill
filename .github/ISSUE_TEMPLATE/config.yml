@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全 / 保密问题 · Security or confidentiality concern
+    url: https://github.com/Yco-0314/data-property-and-compliance-skill/security/advisories/new
+    about: 若发现可能的保密内容泄露或敏感信息残留，请私下报告，不要开公开 issue。/ Report possible confidential-content leakage privately, not in a public issue.
+  - name: 免责声明 · Disclaimer
+    url: https://github.com/Yco-0314/data-property-and-compliance-skill#免责声明请先阅读
+    about: 本框架不构成法律意见。/ This framework is not legal advice.

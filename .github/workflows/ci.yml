@@ -29,7 +29,7 @@ jobs:
             --no-progress --max-retries 2
             --exclude 'img\.shields\.io'
             --exclude 'gov\.cn'
-            README.md README.en.md CONTRIBUTING.md SKILL.md NOTICE tools/README.md
+            README.md README.en.md CONTRIBUTING.md SKILL.md SKILL.en.md NOTICE tools/README.md
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

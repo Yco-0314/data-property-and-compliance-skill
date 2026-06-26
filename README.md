@@ -17,6 +17,7 @@
 
 - [免责声明](#免责声明请先阅读)
 - [覆盖范围（五大领域）](#覆盖范围五大领域)
+- [架构](#架构)
 - [怎么用](#怎么用)
 - [关于本开源版本](#关于本开源版本透明说明)
 - [准确性与维护](#准确性与维护)
@@ -45,6 +46,33 @@
 | 五 · 场内交易 | 交易模式与状态、服务流程、登记材料、生态合作（均以各交易所公开规则为准） |
 
 外加**跨领域通用审查工具**：PDF 隐藏字段发现、表格间矛盾识别、时间线审计、SaaS 角色辨析、等保 vs CCRC/ISO 辨析、去标识化 vs 匿名化辨析。
+
+---
+
+## 架构
+
+```mermaid
+flowchart TB
+  IN["数据要素业务材料<br/>申报 · 交易 · 资产"]:::in
+  SK{{"Data Property &amp; Compliance Skill"}}:::skill
+  TOOLS["跨领域工具<br/>PDF隐藏字段 · 矛盾识别 · 时间线 · 去标识化辨析"]:::tool
+  D1["① 数据资产入表<br/>会计合规"]
+  D2["② 数据资产证券化<br/>ABS"]
+  D3["③ 数据产权登记<br/>六维度审查"]
+  D4["④ 可信数据空间<br/>隐私计算 · 区块链"]
+  D5["⑤ 场内交易<br/>交易 · 生态合规"]
+  OUT["审查记录<br/>风险矩阵 + 补正清单 + 法条对照"]:::out
+  IN --> SK
+  TOOLS -.-> SK
+  SK --> D1 & D2 & D3 & D4 & D5
+  D1 & D2 & D3 & D4 & D5 --> OUT
+  classDef skill fill:#FF6B35,color:#fff,stroke:#FF6B35;
+  classDef in fill:#f0f0ee,stroke:#999999,color:#0a0a0a;
+  classDef out fill:#0a0a0a,color:#ffffff,stroke:#0a0a0a;
+  classDef tool fill:#ffffff,stroke:#FF6B35,color:#0a0a0a,stroke-dasharray:4 3;
+```
+
+> 英文版框架说明见 [SKILL.en.md](./SKILL.en.md)。
 
 ---
 

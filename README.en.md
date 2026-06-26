@@ -19,6 +19,7 @@
 
 - [Disclaimer](#disclaimer-read-first)
 - [Scope (five domains)](#scope-five-domains)
+- [Architecture](#architecture)
 - [How to use](#how-to-use)
 - [About this open-source version](#about-this-open-source-version)
 - [Accuracy & maintenance](#accuracy--maintenance)
@@ -47,6 +48,33 @@
 | 5 · On-exchange trading | Trading modes & states, service flow, registration materials, ecosystem partners (always per each exchange's published rules) |
 
 Plus **cross-domain review tools**: PDF hidden-field discovery, cross-table contradiction detection, timeline audit, SaaS-role analysis, MLPS (等保) vs CCRC/ISO distinction, de-identification vs anonymization distinction.
+
+---
+
+## Architecture
+
+```mermaid
+flowchart TB
+  IN["Filing · trading · asset materials"]:::in
+  SK{{"Data Property &amp; Compliance Skill"}}:::skill
+  TOOLS["Cross-domain tools<br/>hidden-field · contradiction · timeline · de-identification"]:::tool
+  D1["1 · Capitalization<br/>accounting"]
+  D2["2 · Securitization<br/>ABS"]
+  D3["3 · Property registration<br/>six-dimension review"]
+  D4["4 · Trusted data space<br/>privacy computing"]
+  D5["5 · On-exchange trading<br/>trading &amp; ecosystem"]
+  OUT["Review record<br/>risk matrix + remediation list + legal cross-ref"]:::out
+  IN --> SK
+  TOOLS -.-> SK
+  SK --> D1 & D2 & D3 & D4 & D5
+  D1 & D2 & D3 & D4 & D5 --> OUT
+  classDef skill fill:#FF6B35,color:#fff,stroke:#FF6B35;
+  classDef in fill:#f0f0ee,stroke:#999999,color:#0a0a0a;
+  classDef out fill:#0a0a0a,color:#ffffff,stroke:#0a0a0a;
+  classDef tool fill:#ffffff,stroke:#FF6B35,color:#0a0a0a,stroke-dasharray:4 3;
+```
+
+> Full English framework: [SKILL.en.md](./SKILL.en.md).
 
 ---
 
