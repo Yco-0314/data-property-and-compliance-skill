@@ -12,7 +12,7 @@ jobs:
     name: Compliance regression guard
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Run compliance guard (forbidden-pattern scan)
         run: python3 tools/compliance_guard.py
 
@@ -20,7 +20,7 @@ jobs:
     name: Markdown link check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
