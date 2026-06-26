@@ -1,0 +1,25 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python tooling (if/when tools/ is added)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Local scratch / private working material (keep confidential drafts out of git)
+scratch/
+private/
+*.local.md
+
+# Do NOT commit any real申报材料 / case files / training material
+cases/
+源材料/
+培训材料/
+*.申报*.pdf
