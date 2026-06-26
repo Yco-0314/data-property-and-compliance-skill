@@ -3,6 +3,7 @@
 
 🌐 [中文](./README.md) · **English**
 
+[![CI](https://github.com/Yco-0314/data-property-and-compliance-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/Yco-0314/data-property-and-compliance-skill/actions/workflows/ci.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](./LICENSE)
 [![AI Skill](https://img.shields.io/badge/AI%20Skill-Claude%20Code%20%C2%B7%20Codex-FF6B35.svg)](#how-to-use)
 [![Version](https://img.shields.io/badge/version-v1.0.0-1f6feb.svg)](https://github.com/Yco-0314/data-property-and-compliance-skill/releases)

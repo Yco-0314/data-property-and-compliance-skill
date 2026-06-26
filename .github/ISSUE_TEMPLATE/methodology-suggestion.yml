@@ -1,0 +1,34 @@
+name: Methodology or checklist suggestion
+description: Propose a new review tool, checklist item, regional variation, or cross-border scenario
+title: "[idea] "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep it **abstract methodology, public sources only, no confidentiality-bound details**.
+        <sub>保持方法论抽象、只引用公开来源、不含任何受保密约束的细则。</sub>
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - 1 · Capitalization
+        - 2 · Securitization (ABS)
+        - 3 · Property registration
+        - 4 · Trusted data space
+        - 5 · On-exchange trading
+        - Cross-domain tools
+    validations:
+      required: true
+  - type: textarea
+    id: basis
+    attributes:
+      label: Public basis (if any)
+      description: Links to public laws, national standards, plans, or exchanges' published rules.

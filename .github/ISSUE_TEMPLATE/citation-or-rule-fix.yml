@@ -1,0 +1,38 @@
+name: Citation or rule fix
+description: Report an outdated or wrong article number, rule, or link
+title: "[fix] "
+labels: ["citation", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ Do **not** paste any confidential / non-public material or real-case information.
+        <sub>请勿粘贴任何保密 / 非公开材料或真实案例信息。</sub>
+  - type: input
+    id: where
+    attributes:
+      label: Where (file + section)
+      placeholder: e.g. SKILL.md §3.3
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+      description: Quote the current wording.
+    validations:
+      required: true
+  - type: textarea
+    id: should
+    attributes:
+      label: Should be
+      description: Proposed corrected wording.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Public source
+      description: Regulation name + version + effective date + official link (NPC / State Council & ministries / national-standard portal / exchange official site).
+    validations:
+      required: true
